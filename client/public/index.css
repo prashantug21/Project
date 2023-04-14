@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: lightcyan;
+}
+
+#navbar {
+    position: sticky;
+    background-color: #0b0a10cc;
+    height: 3rem;
+    margin: 0.1rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+#left {
+    width: 15rem;
+    /* background: chocolate; */
+    height: 2.5rem;
+    margin: 0.2rem 0rem 0.2rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    width: 4rem;
+    height: 2.5rem;
+    margin: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    height: 2rem;
+    width: 2rem;
+}
+
+#left #name {
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left #name p {
+    font-size: 2rem;
+}
+
+#middle {
+    /* background-color: aqua; */
+    width: 22rem;
+    height: 2.5rem;
+    /* margin: 0rem 6rem; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px) {
+
+    /* body {
+      background-color: rgb(0, 226, 19);
+    } */
+    #left #name {
+        visibility: hidden;
+        display: none;
+
+    }
+
+    #left {
+        width: 3rem;
+
+    }
+    #navbar #right {
+        margin: 0.3rem 0rem 0rem 0rem;
+        display: flex;
+        height: 2.5rem;
+        width: 8rem;
+        justify-content: center;
+        text-align: center;
+    }
+    body .container {
+        width: 80vw;
+        height: 30vh;
+        border: 2px solid black;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .foot .grid .grid-item {
+        width: 10rem;
+        display: grid;
+        height: 3rem;
+        border: 2px solid black;
+    }
+
+    .foot .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(50px, auto);
+    }
+}
+
+
+.input input {
+    width: 18rem;
+    height: 2rem;
+    font-size: 1rem;
+    padding: 0rem 0.5rem;
+    border: none;
+}
+
+.input i {
+    font-size: 24px;
+    color: cyan;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.input i:hover {
+    color: darkcyan;
+    font-weight: bold;
+}
+
+#right {
+    margin: 0.3rem 4rem 0rem 0rem;
+    display: flex;
+    height: 2.5rem;
+    width: 8rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn {
+    background-color: cyan;
+    border-radius: 0.5rem;
+    height: 2.2rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn:hover {
+    background-color: darkcyan;
+}
+
+.btn a {
+    padding: 0.3rem;
+    cursor: pointer;
+    height: 2rem;
+    color: black;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container {
+    width: 80vw;
+    height: 50vh;
+    border: 2px solid black;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 90%;
+    height: 100%;
+    position: absolute;
+}
+
+.content {
+    height: 12rem;
+    width: 10rem;
+    border: 2px solid black;
+}
+
+#category {
+    margin: 3rem 1.5rem 1rem 1.5rem;
+}
+
+.category-item {
+    background-color: white;
+    height: max-content;
+    width: auto;
+    margin: 1rem;
+}
+
+.category-item:hover {
+    background-color: cyan;
+}
+
+.foot {
+    width: 98vw;
+    height: 40vh;
+    border: 2px solid black;
+    margin: 0rem auto;
+    background-color: #0b0a10cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.grid-item {
+    color: white;
+    width: 15rem;
+    height: 3rem;
+    border: 2px solid black;
+}
