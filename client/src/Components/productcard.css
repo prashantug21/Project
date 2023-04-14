@@ -1,0 +1,20 @@
+#card{
+    max-width: 300px;
+    width: 95%;
+    border-radius: 12px;
+    margin: auto;
+}
+#cost{
+    align-items: center;
+}
+#prodImg{
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    display: contents;
+}
+#prodImg img{
+    width: fit-content;
+    height: 250px;
+    margin: 15px auto;
+}

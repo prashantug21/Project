@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+#intro {
+    background: #8e2de2;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8e2de2, #4a00e0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8e2de2, #4a00e0);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px black solid;
+}
+
+#intro p {
+    font-family: 'Rampart One', cursive;
+    max-width: 100rem;
+    margin: auto;
+}
+#detail1, #detail2{
+    text-align: left;
+    
+    padding:5px;
+    font-size:small ;
+    margin-bottom: 2px;
+    font-weight: 500;
+}
+.num{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+#hr2{
+    border: 1px solid black;
+    margin: 2px 5px;
+    opacity: 0.8;
+}
+#cardarea{
+    padding: 12px;
+    width: 95%;
+    max-width: 1200px;
+    margin: auto;
+    background-color:#BDD5EA;
+    border-radius:12px ;
+    text-align: left;
+}

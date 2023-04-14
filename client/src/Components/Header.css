@@ -1,0 +1,37 @@
+#navbar,#enter{
+    align-items: start;
+    font-size: large;
+}
+.nav-link{
+    font-size: 1rem;
+}
+#hr1{
+    border:1px solid white;
+}
+#loginButton{
+    border-width: 3px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#loginCancelBtn,#signUpCancelBtn{
+    position: absolute;
+    display: block;
+    right: 0.5rem;
+    top: 0.5rem;
+    background-color: rgb(61, 14, 14);
+}
+
+#loginSubmit, #signUpSubmit{
+    width: 10rem;
+    max-width: 150px;
+    display: block;
+    margin:auto;
+}
+
+#person{
+    width: 90px;
+    height: auto;
+    max-width: 150px;
+    display: block;
+    margin:auto;
+}
